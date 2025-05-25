@@ -34,14 +34,14 @@ const musicList = [
         id: 1,
         title: "Mouman",
         platform: "Spotify",
-        imageUrl: "images/mouman.jpeg",
+        imageUrl: "images/Mouman.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/track/1IlXL5jl4iIbTs12xqbLwK?si=9d682bcb21fe405b"
     },
     {
         id: 2,
         title: "GANGSTA",
         platform: "Spotify",
-        imageUrl: "images/GANGSTA.jpeg",
+        imageUrl: "images/Gangsta.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/album/6Ek2Al5uVyvk6hhEJVPcbM?si=R-8myZOtQhel48onS46lqg"
     },
     {
@@ -127,33 +127,33 @@ const albumEpList = [
     {   id: 2,
         title: "JEUNE & RICHE (DELUXE)",
         year: 2024,
-        imageUrl: "images/JEUNE.jpeg",
+        imageUrl: "images/jeune.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/album/3yNYy5fvug5JKo755SZaEE?si=Ju4AV4DMRIauRGsGBPzZVw"
     },
     {
         id: 3,
         title: "JEUNE & RICHE",
         year: 2025,
-        imageUrl: "images/JEUNERI.jpeg",
+        imageUrl: "images/jeuneri.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/album/7gIZh8UnIfZYmmVqV2cnPB?si=Uc2sQmW1S9qTWBWgzdrG4g"
     },
     {   id: 4,
         title: "1X",
         year: 2023,
-        imageUrl: "images/1X.jpeg",
+        imageUrl: "images/1x.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/album/4ximljxY4QV5VOMuM5PWM0?si=vtgFeT42SOqmu48X67tlkA"
     },{
         id: 5,
         title: "IDK2",
         year: 2023,
-        imageUrl: "images/IDK2.jpeg",
+        imageUrl: "images/idk2.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/album/6a2w4q4kAcHHcJkODBCC6M?si=OKhnAKmFQEGafEghpyuhHQ"
     },
     {   id: 6,
         title: "Ivoire Drill King",
         year: 2021,
         imageUrl: "images/idk.jpeg",
-        spotifyUrlJ: "https://open.spotify.com/album/7rSTB7BYBJle8dmFidw3eX?si=BDQOUqmiTZqZQphgyOGWGg"
+        spotifyUrl: "https://open.spotify.com/album/7rSTB7BYBJle8dmFidw3eX?si=BDQOUqmiTZqZQphgyOGWGg"
     },
     // Ajoute d'autres albums/EP ici si besoin
 ];
