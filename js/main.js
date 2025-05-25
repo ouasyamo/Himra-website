@@ -354,11 +354,11 @@ const components = {
                         <div class="contact-details">
                             <p>
                                 <i class="fas fa-envelope"></i>
-                                <a href="mailto:booking@himra.com">booking@himra.com</a>
+                                <a href="mailto:ouasyamopro@gmail.com">ouasyamopro@gmail.com</a>
                             </p>
                             <p>
                                 <i class="fas fa-phone"></i>
-                                <a href="tel:+226XXXXXXXX">+226 XX XX XX XX</a>
+                                <a href="tel:+22607348023">+226 07 34 80 23</a>
                             </p>
                         </div>
                     </div>
