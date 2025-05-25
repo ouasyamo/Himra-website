@@ -222,7 +222,7 @@ const components = {
             <div class="about-grid">
                 <div class="about-image reveal">
                     <div class="image-frame">
-                        <img src="images/ab67616100005174c35eda06cefddc1b9f24522f.jpeg" alt="Himra portrait">
+                        <img src="./images/himra-portrait.jpeg" alt="Himra portrait">
                     </div>
                 </div>
                 <div class="about-content reveal">
