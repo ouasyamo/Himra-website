@@ -358,6 +358,7 @@ body {
     background-color: rgba(211, 210, 207, 0.253);
 }
 
+
 .music-card-content {
     padding: 1.5rem;
 }
@@ -868,4 +869,8 @@ body {
     background-clip: text;
     color: transparent;
     display: inline-block;
+}
+
+.music-card .cta-button:hover {
+    cursor: pointer;
 } 

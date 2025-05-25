@@ -32,61 +32,47 @@ window.addEventListener('scroll', () => {
 const musicList = [
     {
         id: 1,
-        platform: "Disponible sur Spotify",
-        embedUrl: "https://open.spotify.com/embed/track/1IlXL5jl4iIbTs12xqbLwK?utm_source=generator&theme=0",
-        iframeStyle: "border-radius:12px",
-        iframeHeight: "352",
-        iframeAllow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-        iframeLoading: "lazy"
+        title: "Mouman",
+        platform: "Spotify",
+        imageUrl: "images/mouman.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/track/1IlXL5jl4iIbTs12xqbLwK?si=9d682bcb21fe405b"
     },
     {
         id: 2,
-        title: "Titre 2",
-        platform: "Disponible sur Spotify",
-        embedUrl: "https://open.spotify.com/embed/track/2eHhJbfyd3Wm7C62ze0KKL?utm_source=generator&theme=0",
-        iframeStyle: "border-radius:12px",
-        iframeHeight: "352",
-        iframeAllow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-        iframeLoading: "lazy"
+        title: "GANGSTA",
+        platform: "Spotify",
+        imageUrl: "images/GANGSTA.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/6Ek2Al5uVyvk6hhEJVPcbM?si=R-8myZOtQhel48onS46lqg"
     },
     {
         id: 3,
-        platform: "Disponible sur Spotify",
-        embedUrl: "https://open.spotify.com/embed/track/4JKSVCeSEJCVoZELrxLuy4?utm_source=generator&theme=0",
-        iframeStyle: "border-radius:12px",
-        iframeHeight: "352",
-        iframeAllow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-        iframeLoading: "lazy"
+        title: "Pas dans les débats (feat. Himra)",
+        platform: "Spotify",
+        imageUrl: "images/pasdanslesdebas.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/3C2FWgMh8JQr41D8u4c55t?si=GNzarCf3Tl6ss9ee4Sdheg"
     },
     {
         id: 4,
-        title: "Titre 2",
-        platform: "Disponible sur Spotify",
-        embedUrl: "https://open.spotify.com/embed/track/3V8Qq9IG6lVxY2cczSnXIH?utm_source=generator&theme=0",
-        iframeStyle: "border-radius:12px",
-        iframeHeight: "352",
-        iframeAllow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-        iframeLoading: "lazy"
+        title: "G3N3RATION N3RF (feat. Kerchak)",
+        platform: "Spotify",
+        imageUrl: "images/aka.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/track/3V8Qq9IG6lVxY2cczSnXIH?si=ff9e2c27e07c4f08"
     },
     {
         id: 5,
-        platform: "Disponible sur Spotify",
-        embedUrl: "https://open.spotify.com/embed/track/4IRjUlhjOlWkVaRpeHLsGt?utm_source=generator&theme=0",
-        iframeStyle: "border-radius:12px",
-        iframeHeight: "352",
-        iframeAllow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-        iframeLoading: "lazy"
+        title: "I BORI LA (feat. Enfant Noir)",
+        platform: "Spotify",
+        imageUrl: "images/aka.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/track/4IRjUlhjOlWkVaRpeHLsGt?si=76b646b20a344222"
     },
     {
         id: 6,
-        title: "Titre 2",
-        platform: "Disponible sur Spotify",
-        embedUrl: "https://open.spotify.com/embed/track/6IWfv0IFN9W52GLnrvgYZA?utm_source=generator&theme=0",
-        iframeStyle: "border-radius:12px",
-        iframeHeight: "352",
-        iframeAllow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture",
-        iframeLoading: "lazy"
-    }
+        title: "LE TEMPS (feat. Ismael Isaac)",
+        platform: "Spotify",
+        imageUrl: "images/aka.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/track/6IWfv0IFN9W52GLnrvgYZA?si=0be88564794e4971"
+    },
+    
 ];
 
 const videoList = [
@@ -133,35 +119,41 @@ const videoList = [
 const albumEpList = [
     {
         id: 1,
-        title: "EP",
+        title: "BIG AKA 4 AKA KAI EP",
         year: 2025,
-        embedUrl: "https://open.spotify.com/embed/album/2Sp3t61MrPQUPn71nv6QZm?utm_source=generator&theme=0"
+        imageUrl: "images/aka.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/2Sp3t61MrPQUPn71nv6QZm?si=XY3gUZNiRwyYixKewEW0uw"
     },
     {   id: 2,
-        title: "ALBUM",
+        title: "JEUNE & RICHE (DELUXE)",
         year: 2024,
-        embedUrl: "https://open.spotify.com/embed/album/3yNYy5fvug5JKo755SZaEE?utm_source=generator&theme=0"
+        imageUrl: "images/JEUNE.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/3yNYy5fvug5JKo755SZaEE?si=Ju4AV4DMRIauRGsGBPzZVw"
     },
     {
         id: 3,
-        title: "ALBUM",
-        year: 2024,
-        embedUrl: "https://open.spotify.com/embed/album/7gIZh8UnIfZYmmVqV2cnPB?utm_source=generator&theme=0"
+        title: "JEUNE & RICHE",
+        year: 2025,
+        imageUrl: "images/JEUNERI.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/7gIZh8UnIfZYmmVqV2cnPB?si=Uc2sQmW1S9qTWBWgzdrG4g"
     },
     {   id: 4,
-        title: "ALBUM",
+        title: "1X",
         year: 2023,
-        embedUrl: "https://open.spotify.com/embed/album/4ximljxY4QV5VOMuM5PWM0?utm_source=generator&theme=0"
+        imageUrl: "images/1X.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/4ximljxY4QV5VOMuM5PWM0?si=vtgFeT42SOqmu48X67tlkA"
     },{
         id: 5,
-        title: "ALBUM",
+        title: "IDK2",
         year: 2023,
-        embedUrl: "https://open.spotify.com/embed/album/6a2w4q4kAcHHcJkODBCC6M?utm_source=generator&theme=0"
+        imageUrl: "images/IDK2.jpeg",
+        spotifyUrl: "https://open.spotify.com/intl-fr/album/6a2w4q4kAcHHcJkODBCC6M?si=OKhnAKmFQEGafEghpyuhHQ"
     },
     {   id: 6,
-        title: "EP",
+        title: "Ivoire Drill King",
         year: 2021,
-        embedUrl: "https://open.spotify.com/embed/album/7rSTB7BYBJle8dmFidw3eX?utm_source=generator&theme=0"
+        imageUrl: "images/idk.jpeg",
+        spotifyUrlJ: "https://open.spotify.com/album/7rSTB7BYBJle8dmFidw3eX?si=BDQOUqmiTZqZQphgyOGWGg"
     },
     // Ajoute d'autres albums/EP ici si besoin
 ];
@@ -276,19 +268,11 @@ const components = {
                     ${musicList.map(track => `
                         <div class="music-card">
                             <div class="music-card-content">
-                                <p class="platform">${track.platform}</p>
-                                <div class="music-embed">
-                                    <iframe 
-                                        style="${track.iframeStyle}"
-                                        src="${track.embedUrl}"
-                                        width="100%"
-                                        height="${track.iframeHeight}"
-                                        frameBorder="0"
-                                        allowfullscreen=""
-                                        allow="${track.iframeAllow}"
-                                        loading="${track.iframeLoading}"
-                                    ></iframe>
-                                </div>
+                                <h4>${track.title}</h4>
+                                <img src="${track.imageUrl}" alt="${track.title}" style="width:100%;border-radius:12px;margin-bottom:1rem;">
+                                <a href="${track.spotifyUrl}" target="_blank" rel="noopener">
+                                    <button class="cta-button">Écouter sur Spotify</button>
+                                </a>
                             </div>
                         </div>
                     `).join('')}
@@ -302,18 +286,10 @@ const components = {
                         <div class="music-card">
                             <div class="music-card-content">
                                 <h4 class="albumname">${album.title} (${album.year})</h4>
-                                <div class="music-embed">
-                                    <iframe
-                                        style="border-radius:12px"
-                                        src="${album.embedUrl}"
-                                        width="100%"
-                                        height="352"
-                                        frameBorder="0"
-                                        allowfullscreen=""
-                                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                                        loading="lazy"
-                                    ></iframe>
-                                </div>
+                                <img src="${album.imageUrl}" alt="${album.title}" style="width:100%;border-radius:12px;margin-bottom:1rem;">
+                                <a href="${album.spotifyUrl}" target="_blank" rel="noopener">
+                                    <button class="cta-button">Écouter sur Spotify</button>
+                                </a>
                             </div>
                         </div>
                     `).join('')}
