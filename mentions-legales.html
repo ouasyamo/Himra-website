@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentions Légales - HIMRA Fan Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .mentions-legales {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            line-height: 1.6;
+            color: var(--text-color);
+        }
+        .mentions-legales h1 {
+            color: var(--gold-primary);
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .mentions-legales h2 {
+            color: var(--gold-primary);
+            margin: 1.5rem 0 1rem;
+            font-size: 1.5rem;
+        }
+        .mentions-legales p {
+            margin-bottom: 1rem;
+            color: var(--text-light);
+        }
+        .mentions-legales a {
+            color: var(--gold-primary);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .mentions-legales a:hover {
+            text-decoration: underline;
+        }
+        .warning-box {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid var(--gold-primary);
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <!-- La navbar sera injectée par JavaScript -->
+    </nav>
+
+    <main class="mentions-legales">
+        <h1>Mentions Légales</h1>
+        
+        <div class="warning-box">
+            <p><strong>⚠️ Site Non Officiel :</strong> Ce site est créé par un fan et n'est pas affilié officiellement à HIMRA ou à son équipe.</p>
+        </div>
+
+        <h2>1. Informations légales</h2>
+        <p>Ce site est un site non officiel créé par un fan, à des fins non commerciales et éducatives.</p>
+        <p>Développeur : Aslane OUEDRAOGO<br>
+        Localisation : Burkina Faso<br>
+        Email : <a href="mailto:ouasyamopro@gmail.com">ouasyamopro@gmail.com</a></p>
+
+        <h2>2. Propriété intellectuelle</h2>
+        <p>Tous les contenus musicaux, images, vidéos et autres médias présents sur ce site sont la propriété exclusive de HIMRA et/ou de ses ayants droits.</p>
+        <p>Ce site fan n'est pas affilié, associé, autorisé, approuvé par, ou en aucune façon officiellement connecté avec HIMRA ou ses représentants.</p>
+        <p>Toute utilisation non autorisée des contenus de ce site est strictement interdite et pourra faire l'objet de poursuites judiciaires.</p>
+
+        <h2>3. Utilisation du site</h2>
+        <p>Ce site est créé dans un but non commercial, à des fins éducatives et de démonstration de compétences en développement web.</p>
+        <p>Toute reproduction, distribution ou utilisation commerciale des contenus de ce site est strictement interdite sans autorisation préalable.</p>
+        <p>Les visiteurs s'engagent à :</p>
+        <ul>
+            <li>Ne pas copier ou télécharger les contenus sans autorisation</li>
+            <li>Ne pas utiliser les contenus à des fins commerciales</li>
+            <li>Respecter les droits d'auteur de HIMRA et de ses collaborateurs</li>
+            <li>Ne pas modifier ou altérer les contenus du site</li>
+        </ul>
+
+        <h2>4. Protection des données</h2>
+        <p>Ce site ne collecte aucune donnée personnelle des visiteurs.</p>
+        <p>Les formulaires de contact sont à des fins de démonstration uniquement.</p>
+        <p>Les données que vous pourriez partager via le formulaire de contact ne sont pas stockées et sont uniquement utilisées pour répondre à votre message.</p>
+
+        <h2>5. Liens externes</h2>
+        <p>Ce site contient des liens vers des plateformes officielles de HIMRA (Spotify, YouTube, etc.).</p>
+        <p>Nous ne sommes pas responsables du contenu des sites externes vers lesquels nous créons des liens.</p>
+
+        <h2>6. Contact</h2>
+        <p>Pour toute question concernant ce site fan, veuillez contacter :</p>
+        <p>Email : <a href="mailto:ouasyamopro@gmail.com">ouasyamopro@gmail.com</a><br>
+        Localisation : Burkina Faso</p>
+
+        <h2>7. Modifications</h2>
+        <p>Ces mentions légales peuvent être modifiées à tout moment. La dernière mise à jour date du 25 mai 2025.</p>
+
+        <div class="warning-box">
+            <p><strong>Note importante :</strong> Ce site est créé avec respect et admiration pour le travail de HIMRA. Tous les contenus sont utilisés dans le cadre du fair use et de la promotion de l'artiste.</p>
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <!-- Le footer sera injecté par JavaScript -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Protection basique contre le clic droit
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection basique contre la copie
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection contre le drag & drop des images
+        document.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection contre la sélection de texte
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection contre les raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Empêcher Ctrl+S, Ctrl+U, Ctrl+P, etc.
+            if (e.ctrlKey && (e.key === 's' || e.key === 'u' || e.key === 'p')) {
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+</body>
+</html> 
