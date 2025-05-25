@@ -256,9 +256,8 @@ const components = {
                     Découvrez mes derniers titres et clips pour vous plonger dans mon univers musical
                 </p>
                 <div class="music-nav-btns">
-                    <a href="https://open.spotify.com/artist/TON_ID_SPOTIFY" class="cta-button" target="_blank" rel="noopener">Tout sur Spotify</a>
-                    <a href="https://music.youtube.com/channel/TON_ID_YOUTUBE" class="cta-button" target="_blank" rel="noopener">Tout sur YouTube Music</a>
-                    <a href="https://www.youtube.com/channel/TON_ID_YOUTUBE" class="cta-button" target="_blank" rel="noopener">Tous les Clips sur YouTube</a>
+                    <a href="https://open.spotify.com/intl-fr/artist/39SBljHcUD66edvRmiRqlS" class="cta-button" target="_blank" rel="noopener">Ma page Spotify</a>
+                    <a href="https://www.youtube.com/@himraofficiel3231/featured" class="cta-button" target="_blank" rel="noopener">Tous les Clips sur YouTube</a>
                 </div>
             </div>
 
