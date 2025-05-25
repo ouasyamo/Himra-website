@@ -156,7 +156,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.614), rgba(0, 0, 0, 0.158)),
                 url('../images/Capture d\'écran 2025-05-24 134236.png') center/cover no-repeat;
     text-align: center;
     padding-top: 80px;
