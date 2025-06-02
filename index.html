@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMRA - Chétté 1X</title>
+    <meta name="description" content="Découvrez l'univers musical de HIMRA, le maître de la drill africaine : singles, albums, clips, booking et réseaux sociaux officiels.">
+    <meta name="keywords" content="Himra, rap, drill, musique, Côte d'Ivoire, Afrique, singles, albums, clips, booking, Spotify, YouTube, Instagram">
+    <meta name="author" content="HIMRA">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="HIMRA - Le Maître de la Drill Africaine">
+    <meta property="og:description" content="Découvrez l'univers musical de HIMRA, le maître de la drill africaine : singles, albums, clips, booking et réseaux sociaux officiels.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ouasyamo.github.io/Himra-website/">
+    <meta property="og:image" content="images/og-image.jpeg">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="HIMRA - Le Maître de la Drill Africaine">
+    <meta name="twitter:description" content="Découvrez l'univers musical de HIMRA, le maître de la drill africaine : singles, albums, clips, booking et réseaux sociaux officiels.">
+    <meta name="twitter:image" content="images/og-image.jpeg">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <!-- La navbar sera injectée par JavaScript -->
+    </nav>
+
+    <main>
+        <section id="accueil" class="hero">
+            <!-- Section Hero -->
+        </section>
+
+        <section id="à-propos" class="about">
+            <!-- Section About -->
+        </section>
+
+        <section id="musique" class="music">
+            <!-- Section Music -->
+        </section>
+
+        <section id="contact" class="contact">
+            <!-- Section Contact -->
+        </section>
+        <img src="" alt="">
+    </main>
+
+    <footer id="footer" class="footer">
+        <!-- Le footer sera injecté par JavaScript -->
+    </footer>
+
+    <!-- Chargement du script sans type="module" pour éviter les problèmes CORS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Protection basique contre le clic droit
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection basique contre la copie
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection contre le drag & drop des images
+        document.addEventListener('dragstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection contre la sélection de texte
+        document.addEventListener('selectstart', function(e) {
+            e.preventDefault();
+            return false;
+        });
+
+        // Protection contre les raccourcis clavier
+        document.addEventListener('keydown', function(e) {
+            // Empêcher Ctrl+S, Ctrl+U, Ctrl+P, etc.
+            if (e.ctrlKey && (e.key === 's' || e.key === 'u' || e.key === 'p')) {
+                e.preventDefault();
+                return false;
+            }
+        });
+    </script>
+</body>
+</html> 
