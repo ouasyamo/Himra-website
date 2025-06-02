@@ -72,13 +72,7 @@ const musicList = [
         imageUrl: "images/aka.jpeg",
         spotifyUrl: "https://open.spotify.com/intl-fr/track/4IRjUlhjOlWkVaRpeHLsGt?si=76b646b20a344222"
     },
-    {
-        id: 7,
-        title: "LE TEMPS (feat. Ismael Isaac)",
-        platform: "Spotify",
-        imageUrl: "images/aka.jpeg",
-        spotifyUrl: "https://open.spotify.com/intl-fr/track/6IWfv0IFN9W52GLnrvgYZA?si=0be88564794e4971"
-    }
+    
 ];
 
 const videoList = [
@@ -118,12 +112,7 @@ const videoList = [
         youtubeId: "B1LG8jSyZEs",
         youtubeUrl: "https://www.youtube.com/watch?v=B1LG8jSyZEs"
     },
-    {
-        id: 7,
-        title: "HIMRA - GANJAMAN (FT. KWAKU DMC, REGGIE, O'KENNETH & BEEZTRAP KOTM) [Official Music Video]",
-        youtubeId: "4v8tZ6NNDzU",
-        youtubeUrl: "https://www.youtube.com/watch?v=4v8tZ6NNDzU"
-    }
+    
 ];
 
 // Liste des albums & EP
