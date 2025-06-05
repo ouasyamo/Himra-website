@@ -79,7 +79,7 @@ const videoList = [
     {
         id: 1,
         title: "HIMRA- FREESTYLE DRILL IVOIRE #5",
-        youtubeId: "hzO-wcwjUh-CwiBp",
+        youtubeId: "GyIDTBHEOAQ",
         youtubeUrl: "https://youtu.be/GyIDTBHEOAQ?si=hzO-wcwjUh-CwiBp"
     },
     {
