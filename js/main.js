@@ -78,39 +78,39 @@ const musicList = [
 const videoList = [
     {
         id: 1,
+        title: "HIMRA- FREESTYLE DRILL IVOIRE #5",
+        youtubeId: "hzO-wcwjUh-CwiBp",
+        youtubeUrl: "https://youtu.be/GyIDTBHEOAQ?si=hzO-wcwjUh-CwiBp"
+    },
+    {
+        id: 2,
         title: "Saamou ft. Himra - Attack (Clip Officiel)",
         youtubeId: "foq514nlWXw",
         youtubeUrl: "https://youtu.be/foq514nlWXw?si=h_O1fELejj4yUSk5"
     },
     {
-        id: 2,
+        id: 3,
         title: "HIMRA - BÂTON NON NON (Clip Officiel)",
         youtubeId: "3Eiq6mv8Vlo",
         youtubeUrl: "https://youtu.be/3Eiq6mv8Vlo?si=JTTtl4eLaK4AWAMr"
     },
     {
-        id: 3,
+        id: 4,
         title: "HIMRA - I BORI LA Feat ENFANT NOIR (clip officiel)",
         youtubeId: "G9l5AO1D4To",
         youtubeUrl: "https://www.youtube.com/watch?v=G9l5AO1D4To"
     },
     {
-        id: 4,
+        id: ,
         title: "HIMRA - NUMBER ONE (FT. MINZ) [Official Music Video]",
         youtubeId: "b16_UBiP4G0",
         youtubeUrl: "https://www.youtube.com/watch?v=b16_UBiP4G0"
     },
     {
-        id: 5,
+        id: ,
         title: "HIMRA - DAGBACHI [Official Music Video]",
         youtubeId: "-QB-RvT3yj8",
         youtubeUrl: "https://www.youtube.com/watch?v=-QB-RvT3yj8"
-    },
-    {
-        id: 6,
-        title: "HIMRA - NUMBER ONE (FT. MINZ) [Official Music Video]",
-        youtubeId: "B1LG8jSyZEs",
-        youtubeUrl: "https://www.youtube.com/watch?v=B1LG8jSyZEs"
     },
     
 ];
