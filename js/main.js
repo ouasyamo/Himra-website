@@ -101,13 +101,13 @@ const videoList = [
         youtubeUrl: "https://www.youtube.com/watch?v=G9l5AO1D4To"
     },
     {
-        id: ,
+        id: 5,
         title: "HIMRA - NUMBER ONE (FT. MINZ) [Official Music Video]",
         youtubeId: "b16_UBiP4G0",
         youtubeUrl: "https://www.youtube.com/watch?v=b16_UBiP4G0"
     },
     {
-        id: ,
+        id: 6,
         title: "HIMRA - DAGBACHI [Official Music Video]",
         youtubeId: "-QB-RvT3yj8",
         youtubeUrl: "https://www.youtube.com/watch?v=-QB-RvT3yj8"
